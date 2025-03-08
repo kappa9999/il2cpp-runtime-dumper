@@ -1,0 +1,15 @@
+# Core dependencies
+frida>=15.0.0
+frida-tools>=10.0.0
+colorama>=0.4.4
+
+# For metadata parsing
+construct>=2.10.0
+six>=1.16.0
+
+# Optional: For better terminal output
+rich>=10.0.0
+
+# Note: LLDB Python bindings are typically installed with LLDB/Xcode
+# and cannot be installed via pip. Make sure you have LLDB installed
+# on your system. 
